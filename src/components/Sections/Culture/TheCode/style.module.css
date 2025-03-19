@@ -1,0 +1,16 @@
+.boxShadow {
+  box-shadow: 0px 13.3704px 16.713px -3.3426px rgba(0, 0, 0, 0.4),
+    0px 5.34815px 6.68519px -4.01112px rgba(0, 0, 0, 0.4),
+    inset 0px 20.8206px 29.8962px -19.219px rgba(255, 255, 255, 0.02),
+    inset 0px 3.73702px 5.87246px -2.13544px rgba(255, 255, 255, 0.07),
+    inset 0px -43.7765px 36.3025px -34.1671px rgba(96, 68, 145, 0.05),
+    inset 0px 52.3183px 53.386px -25.6253px rgba(202, 172, 255, 0.05),
+    inset 0px 2.13544px 9.60949px rgba(154, 146, 210, 0.05),
+    inset 0px 0.53386px 21.3544px rgba(227, 222, 255, 0.05);
+}
+
+@media (min-width: 768px) {
+  .boxShadow {
+    box-shadow: none;
+  }
+}

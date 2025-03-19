@@ -1,0 +1,13 @@
+.HeroSection {
+  --height-extra: 52rem;
+}
+@media (min-width: 1024px) {
+  .HeroSection {
+    --height-extra: 50rem;
+  }
+}
+@media (min-width: 1280px) {
+  .HeroSection {
+    --height-extra: 67rem;
+  }
+}

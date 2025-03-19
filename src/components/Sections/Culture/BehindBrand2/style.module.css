@@ -1,0 +1,49 @@
+.dropShadow1 {
+  filter: drop-shadow(76.5104px 137.719px 62.974px rgba(164, 190, 212, 0.03))
+    drop-shadow(42.9635px 77.099px 52.9688px rgba(164, 190, 212, 0.09))
+    drop-shadow(19.4219px 34.1354px 39.4323px rgba(164, 190, 212, 0.15))
+    drop-shadow(4.70833px 8.82812px 21.776px rgba(164, 190, 212, 0.17))
+    drop-shadow(0px 0px 0px rgba(164, 190, 212, 0.17));
+}
+
+.dropShadow2 {
+  filter: drop-shadow(47.1094px -54.0885px 28.4983px rgba(250, 249, 245, 0.02))
+    drop-shadow(26.1719px -30.2431px 24.4271px rgba(250, 249, 245, 0.08))
+    drop-shadow(11.6319px -13.3767px 18.0295px rgba(250, 249, 245, 0.14))
+    drop-shadow(2.90799px -3.48958px 9.88715px rgba(250, 249, 245, 0.16))
+    drop-shadow(0px 0px 0px rgba(250, 249, 245, 0.16));
+}
+
+.dropShadow3 {
+  filter: drop-shadow(47.1094px -54.0885px 28.4983px rgba(250, 249, 245, 0.02))
+    drop-shadow(26.1719px -30.2431px 24.4271px rgba(250, 249, 245, 0.08))
+    drop-shadow(11.6319px -13.3767px 18.0295px rgba(250, 249, 245, 0.14))
+    drop-shadow(2.90799px -3.48958px 9.88715px rgba(250, 249, 245, 0.16))
+    drop-shadow(0px 0px 0px rgba(250, 249, 245, 0.16));
+}
+
+@media (min-width: 1024px) {
+  .dropShadow1 {
+    filter: drop-shadow(130px 234px 107px rgba(164, 190, 212, 0.03))
+      drop-shadow(73px 131px 90px rgba(164, 190, 212, 0.09))
+      drop-shadow(33px 58px 67px rgba(164, 190, 212, 0.15))
+      drop-shadow(8px 15px 37px rgba(164, 190, 212, 0.17))
+      drop-shadow(0px 0px 0px rgba(164, 190, 212, 0.17));
+  }
+
+  .dropShadow2 {
+    filter: drop-shadow(81px -93px 49px rgba(250, 249, 245, 0.02))
+      drop-shadow(45px -52px 42px rgba(250, 249, 245, 0.08))
+      drop-shadow(20px -23px 31px rgba(250, 249, 245, 0.14))
+      drop-shadow(5px -6px 17px rgba(250, 249, 245, 0.16))
+      drop-shadow(0px 0px 0px rgba(250, 249, 245, 0.16));
+  }
+
+  .dropShadow3 {
+    filter: drop-shadow(242px -271px 145px rgba(215, 182, 174, 0.03))
+      drop-shadow(136px -152px 122px rgba(215, 182, 174, 0.1))
+      drop-shadow(60px -68px 91px rgba(215, 182, 174, 0.17))
+      drop-shadow(15px -17px 50px rgba(215, 182, 174, 0.2))
+      drop-shadow(0px 0px 0px rgba(215, 182, 174, 0.2));
+  }
+}
